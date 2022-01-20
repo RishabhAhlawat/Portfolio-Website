@@ -1,0 +1,218 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 5px;
+    text-align: center;
+    background: #4f6d7a;
+    color: white;
+    font-size: 15px;
+}
+
+h1{
+    font-weight: 400;
+}
+
+p{
+    font-weight: 300;
+}
+
+.sidenav {
+    width: 120px;
+    position: fixed;
+    z-index: 1; /* Stay on top */
+    top: 8.3rem; /* Stay at the top */
+    left: 0;
+    background-color: #c0d6df;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    margin-left: 7.5px;
+  }
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #818181;
+    display: block; 
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 160px;
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.title{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    background-color: #4a6fa5;
+    color: white;
+}
+
+.about{
+    margin-left: 8rem;
+    font-weight: 500;
+}
+li{
+    margin-left: 8rem;
+}
+
+.skills{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    background-color: #a3c4bc;
+    color: white;
+}
+
+.hcjm{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    size: 25vw;
+    width: 25%;
+}
+
+.education{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  background-color: #a3c4bc;
+  color: white;
+}
+
+table{
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  size: 100vw;
+}
+
+th{
+  padding-inline: 50px;
+}
+
+td{
+  text-align: center;
+}
+
+.coder{
+  display: block;
+  margin-right: 0px;
+  margin-left: auto;
+  size: 80vw;
+  width: 80%;
+}
+
+.home{
+  justify-content: space-between;
+  size: 25vw;
+  display: flex;  
+}
+
+.intro{
+  margin-left: 10rem;
+  text-align: justify;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.name{
+  margin-left: 10rem;
+  text-align: justify;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.dev{
+  margin-left: 10rem;
+  text-align: justify;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.button1{
+  margin-left: 10rem;
+  text-align: justify;
+  border-radius: 5px;
+  background-color: #dbe9ee;
+  border-color: #dbe9ee;
+  
+}
+
+.button1:hover{
+  background-color: white;
+  color: black;
+}
+
+.button2{
+  border-radius: 5px;
+  background-color: #dbe9ee;
+  border-color: #dbe9ee;
+  text-align: justify;
+  margin: 2px;
+}
+
+.button2:hover{
+  background-color: white;
+  color: black;
+}
+
+.res{
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.res1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.project{
+  display: flex;
+  align-items: center;
+  margin-left: 10rem;
+}
+
+.project li{
+  font-weight: 400;
+  font-size: x-large;
+  margin-right: 5rem;
+  padding: 1rem;
+}
+
+.contact{
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cim{
+  align-items: center;
+  display: flex;
+  background-color: white;
+  border: none;
+}
+
+.buttons ul li{
+  list-style: none;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
